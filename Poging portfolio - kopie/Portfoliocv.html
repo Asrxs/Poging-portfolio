@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"rel="stylesheet"/>
+    <link rel="stylesheet" href="portfolio.css"/>
+    <title>Zon & Zekerheid</title>
+    <script>
+      function redirectToEmail() {
+        window.location.href = "mailto:kysn.colin@gmail.com";
+      }
+    </script>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Kyan</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Portfolio</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section class="section">
+      <div class="section__container">
+        <div class="content">
+          <h1 class="title">
+            I am <span>Kyan<br/>A</span> Software Developer
+          </h1>
+          <p class="description">
+            Welkom op mijn website portfolio! Mijn naam is Kyan Colin. Momenteel ben ik aan het studeren als
+            Software Developer (leerjaar 2). Ik ben altijd op zoek naar nieuwe manieren
+            om mijn kennis en vaardigheden uit te breiden. Vanwege mijn enthousiasme voor leren, neem ik elke gelegenheid om deel te nemen aan
+            extra-curriculaire activiteiten, zoals workshops en seminars, om mijn horizon te verbreden.
+          </p>
+          <div class="action__btns">
+            <button class="hire__me" onclick="redirectToEmail()">Hire Me</button>
+            <a href="CV/cv met foto 2.pdf" download>
+              <button class="resume">Resume</button>
+            </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img/yourstruly.jpg" alt="profile" />
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
